@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+ 
+
+}
+.toggle-button {
+    width: 50px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    scale: 0.7;
+  }
+  
+  .toggle-button.active {
+    background-color: #4caf50;
+  }
+  
+  .toggle-circle {
+    width: 23px;
+    height: 23px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transition: left 0.3s ease;
+  }
+  
+  .toggle-button.active .toggle-circle {
+    left: 26px;
+  }
+  
+  .react-datepicker-wrapper {
+    width: 100% !important;
+  
+  }
+  
+  .react-datepicker__input-container {
+    width: 100% !important;
+  }
+  /* Add this to your global CSS file or a relevant module CSS file */
+.scro {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #ccc transparent; /* For Firefox */
+}
+
+.scro::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+.scro::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Scrollbar track color */
+  border-radius: 8px; /* Rounded track */
+}
+
+.scro::-webkit-scrollbar-thumb {
+  background-color: #888; /* Scrollbar thumb color */
+  border-radius: 8px; /* Rounded scrollbar thumb */
+  border: 2px solid #f0f0f0; /* Add padding effect */
+
+}
+
+.scro::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Thumb hover color */
+}
