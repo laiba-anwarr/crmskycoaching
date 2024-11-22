@@ -28,7 +28,7 @@ const [regdate, setRegdate]=useState(new Date())
   };
 
   return (
-    <div className="fixed inset-0  flex justify-center items-center w-full bg-black bg-opacity-50 z-50 font-raleway">
+    <div className="fixed inset-0  flex justify-center items-center w-full bg-black px-5 md:px-0 bg-opacity-50 z-50 font-raleway">
       <div
       style={{borderRadius:"8px"}}
       className=" scro w-full md:max-h-[95%] scro 2xl:h-[80%] overflow-y-auto   md:w-[400px] bg-white shadow-md py-4">

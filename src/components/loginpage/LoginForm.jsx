@@ -12,8 +12,8 @@ console.log("password", password)
 
   return (
     <div>
-<form onSubmit={handleSubmit}>
-<div className='w-full mt-5 flex flex-col gap-4 pl-7'>
+<form onSubmit={handleSubmit} className=''>
+<div className='w-full mt-5 flex flex-col gap-4 pl-7 '>
 <input
 value={email}
 onChange={(e)=> setEmail(e.target.value)}
